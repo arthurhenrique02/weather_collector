@@ -16,3 +16,5 @@ def start_app() -> FastAPI:
     configure_db()
     return app
 
+
+app = start_app()
